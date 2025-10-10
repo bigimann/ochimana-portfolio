@@ -47,6 +47,7 @@ export default function ContactCard({ fadeInUp }) {
 
   return (
     <motion.div
+      id="contact-res"
       className="w-[90%] sm:w-[85%] md:w-[70%] lg:w-[50%] mx-auto bg-white dark:bg-slate-800 rounded-3xl 
       shadow-2xl p-6 sm:p-8 relative overflow-hidden border border-transparent 
       hover:border-cyan-500 transition-all duration-500 hover:shadow-cyan-500/20"
@@ -165,6 +166,7 @@ export default function ContactCard({ fadeInUp }) {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            id="contact-res"
             className="flex flex-col items-center justify-center w-28 h-28 sm:w-32 sm:h-32 rounded-2xl 
             backdrop-blur-xl bg-white/10 dark:bg-slate-800/40 border border-white/20 
             shadow-lg hover:shadow-cyan-500/30 transition-all duration-500 

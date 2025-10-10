@@ -7,7 +7,7 @@ export default function Hero() {
         relative min-h-screen flex flex-col justify-center items-center text-center px-6
         bg-gradient-to-br from-white via-cyan-100 to-blue-50
         dark:from-slate-950 dark:via-slate-900 dark:to-cyan-900
-        overflow-hidden transition-colors duration-700
+        overflow-hidden transition-colors duration-700 sm:h-60
       "
     >
       {/* Animated background blobs */}

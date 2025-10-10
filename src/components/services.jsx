@@ -113,6 +113,7 @@ export default function ServicesSection() {
               rotateY: 3,
               boxShadow: "0 10px 40px rgba(6,182,212,0.3)",
             }}
+            id="service-res"
             className="group relative bg-white/10 dark:bg-slate-800/40 backdrop-blur-md border border-slate-300/30 dark:border-slate-700/40 rounded-2xl p-6 text-center shadow-lg transition-all duration-500 hover:border-cyan-400 hover:shadow-cyan-500/30"
           >
             {/* Hover glow */}
