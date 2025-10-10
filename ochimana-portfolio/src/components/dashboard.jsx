@@ -47,6 +47,7 @@ function Dashboard() {
 
   return (
     <div className="bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100 font-sans transition-colors duration-300 w-full">
+      {/* NAVBAR SECTION */}
       <Navbar theme={theme} setMode={setMode} />
 
       <div id="home"></div>
@@ -109,8 +110,9 @@ function Dashboard() {
 
       {/* FOOTER */}
       <footer className="py-6 text-center text-slate-500 dark:text-slate-400 text-sm">
-        © 2025 Eneojo God'swill Ochimana | Built with React + Tailwind + Framer
-        Motion
+        © 2025 <span className="text-cyan-500">Eneojo God'swill Ochimana</span>{" "}
+        | Built with React + <span className="text-fuchsia-500">Tailwind</span>{" "}
+        + Framer Motion
       </footer>
     </div>
   );

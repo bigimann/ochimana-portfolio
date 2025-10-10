@@ -24,7 +24,7 @@ export default function Navbar({ theme, setMode }) {
     <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-5 py-3 bg-white/70 dark:bg-slate-900/80 backdrop-blur-md shadow-md dark:shadow-white/20">
       {/* Logo */}
       <h1 className="font-extrabold text-xl text-cyan-500 tracking-widest cursor-pointer">
-        ENEOJO
+        ENE<span className="text-fuchsia-500">OJO</span>
       </h1>
 
       {/* Desktop Menu */}
@@ -82,7 +82,7 @@ export default function Navbar({ theme, setMode }) {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="absolute top-full left-0 w-full bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 flex flex-col items-center py-6 space-y-5 md:hidden"
+            className="absolute top-full left-0 w-full bg-white dark:bg-slate-700 border-t border-slate-200 dark:border-slate-600 flex flex-col items-center py-6 space-y-5 md:hidden"
           >
             {["Home", "About", "Services", "Skills", "Projects"].map(
               (item, index) => (

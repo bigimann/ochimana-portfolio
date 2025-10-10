@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function SkillsCard({ img, title, alt }) {
   return (
     <motion.section
-      className="relative group w-full sm:w-44 md:w-64 h-48 rounded-2xl overflow-hidden bg-white/10 backdrop-blur-md shadow-lg dark:bg-slate-800/50 border border-white/20 dark:border-slate-700/50 hover:border-cyan-500 transition-all duration-500"
+      className="relative group w-full sm:w-44 md:w-64 h-48 rounded-2xl overflow-hidden bg-white/10 backdrop-blur-md shadow-lg dark:bg-slate-800/50 border border-white/20 dark:border-slate-700/50 hover:border-cyan-500 dark:hover:border-fuchsia-500 transition-all duration-500"
       whileHover={{
         scale: 1.08,
         rotateY: 10,

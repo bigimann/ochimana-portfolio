@@ -57,7 +57,7 @@ export default function ContactCard({ fadeInUp }) {
     >
       {/* Header */}
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-cyan-400 dark:text-cyan-400">
-        Contact Me
+        Contact <span className="text-fuchsia-500">Me</span>
       </h2>
       <p className="text-center text-sm sm:text-base text-slate-600 dark:text-slate-400 mb-6">
         Let's build something amazing together 💬

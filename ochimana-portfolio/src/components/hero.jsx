@@ -47,7 +47,10 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hi, I'm <span className="text-cyan-500 dark:text-cyan-400">Eneojo</span>
+        Hi, I'm{" "}
+        <span className="text-cyan-500 dark:text-cyan-400">
+          Ene<span className="text-fuchsia-500 font-bold">ojo</span>
+        </span>
       </motion.h1>
 
       <motion.p

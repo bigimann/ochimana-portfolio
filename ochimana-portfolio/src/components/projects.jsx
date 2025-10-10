@@ -55,7 +55,7 @@ export default function ProjectCard({
             href={code}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-slate-200 dark:hover:text-blue-300 dark:bg-slate-700 hover:bg-slate-400 dark:hover:bg-slate-600 text-slate-900 dark:text-white rounded-lg transition-all duration-300"
+            className="px-4 py-2 bg-slate-200 dark:hover:text-blue-300 dark:bg-slate-700 hover:bg-slate-400 dark:hover:bg-slate-600 text-fuchsia-500 rounded-lg transition-all duration-300 font-bold"
           >
             View Code
           </a>

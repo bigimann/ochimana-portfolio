@@ -81,7 +81,7 @@ export default function ServicesSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          What I Do
+          What <span className="text-fuchsia-500">I</span> Do
         </motion.h2>
         <motion.p
           className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
@@ -146,7 +146,9 @@ export default function ServicesSection() {
           href="#contact"
           className="inline-block px-8 py-3 text-white font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl shadow-lg hover:from-cyan-600 hover:to-blue-500 hover:shadow-cyan-500/40 transition-transform transform hover:scale-105"
         >
-          Let's Build Something Amazing 🚀
+          Let's Build{" "}
+          <span className="text-fuchsia-500 font-bold">Something</span> Amazing
+          🚀
         </a>
       </motion.div>
     </section>
