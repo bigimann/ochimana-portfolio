@@ -63,7 +63,7 @@ function Dashboard() {
       {/* SKILLS SECTION */}
       <section
         id="skills"
-        className="pb-16 dark:pt-8 bg-slate-200 dark:bg-slate-800 px-6 transition-colors flex flex-col items-center pt-16"
+        className="pb-16 bg-slate-200 dark:bg-slate-800 px-6 transition-colors flex flex-col items-center pt-16"
       >
         <motion.h2
           className="text-3xl font-bold mb-16 text-center text-cyan-500 dark:text-cyan-400"
