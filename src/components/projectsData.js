@@ -1,5 +1,14 @@
 export const projects = [
   {
+    img: "./agrosoilassistant.png",
+    alt: "Agro Soil Assistant",
+    title: "Agro Soil Assistant",
+    description:
+      "AI-powered soil and crop analysis assistant for African farmers.",
+    live: "https://agrosoilassistant.vercel.app/",
+    code: "https://github.com/bigimann/agrosoilanalyser",
+  },
+  {
     img: "./assemblyendgame.jpeg",
     alt: "Assembly Endgame",
     title: "Assembly Endgame",
