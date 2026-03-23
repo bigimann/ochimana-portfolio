@@ -1,5 +1,14 @@
 export const projects = [
   {
+    img: "./ledgerly.jpeg",
+    alt: "Ledgerly",
+    title: "Ledgerly",
+    description:
+      "Nigerian tax-aware income tracking platform.",
+    live: "https://ledgerly-ashen.vercel.app/",
+    code: "https://github.com/bigimann/ledgerly",
+  },
+  {
     img: "./agrosoilassistant.png",
     alt: "Agro Soil Assistant",
     title: "Agro Soil Assistant",
