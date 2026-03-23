@@ -3,8 +3,7 @@ export const projects = [
     img: "./ledgerly.jpeg",
     alt: "Ledgerly",
     title: "Ledgerly",
-    description:
-      "Nigerian tax-aware income tracking platform.",
+    description: "Nigerian tax-aware income tracking platform.",
     live: "https://ledgerly-ashen.vercel.app/",
     code: "https://github.com/bigimann/ledgerly",
   },
@@ -16,6 +15,14 @@ export const projects = [
       "AI-powered soil and crop analysis assistant for African farmers.",
     live: "https://agrosoilassistant.vercel.app/",
     code: "https://github.com/bigimann/agrosoilanalyser",
+  },
+  {
+    img: "./lucky_pick.jpeg",
+    alt: "Lucky Pick Socials",
+    title: "Lucky Pick Socials",
+    description: "Giveaway tools for Facebook, Instagram, Twitter and TikTok",
+    live: "https://luckypicksocials.vercel.app/",
+    code: "https://github.com/bigimann/lucky-pick/",
   },
   {
     img: "./assemblyendgame.jpeg",
